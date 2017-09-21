@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ed6bfa2-df11-4088-b8f7-aca46e37e1c7">
+  <name>ИспользованиеПодключаемогоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование подключаемого оборудования (Примеры)</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьПодключаемоеОборудование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПодключаемоеОборудование</content>
+  <content>Catalog.ДрайверыОборудования</content>
+</mdclass:FunctionalOption>

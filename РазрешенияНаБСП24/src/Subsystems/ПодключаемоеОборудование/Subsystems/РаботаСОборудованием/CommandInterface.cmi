@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:953a5c06-150b-4d33-a1b3-e1b5b7d767c2</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:6fcff457-692f-4224-96ad-7c28cd2bc812</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>0:953a5c06-150b-4d33-a1b3-e1b5b7d767c2</commands>
+      <commands>0:6fcff457-692f-4224-96ad-7c28cd2bc812</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>0:ce686c52-499b-4d2a-ba5c-cb1eab347cc8</commands>
+      <commands>0:953a5c06-150b-4d33-a1b3-e1b5b7d767c2</commands>
+      <commands>0:6fcff457-692f-4224-96ad-7c28cd2bc812</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>0:9b2de209-5ae1-40a1-a932-c2e90e17540f</commands>
+      <commands>0:9cd6269c-ce53-404f-b7ba-bf5537a63818</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

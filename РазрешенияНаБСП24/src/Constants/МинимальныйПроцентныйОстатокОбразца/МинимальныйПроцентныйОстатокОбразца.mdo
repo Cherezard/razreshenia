@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc3ac2c2-327e-43dc-9cf5-dc19680bf5e1">
+  <producedTypes>
+    <managerType typeId="4c027912-e452-439c-85db-b451ae44a67f" valueTypeId="d7133272-06b8-414f-972b-edf37af0640c"/>
+    <valueManagerType typeId="e0b020c3-92a4-48fb-b673-141e9cda7113" valueTypeId="35a1dbd1-beca-41d6-9c0f-336e4491ba13"/>
+  </producedTypes>
+  <name>МинимальныйПроцентныйОстатокОбразца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальный остаток образца (%)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>При каком остатке квоты по образцам будет  производить автоматическую рассылку уведомлений</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Вводить значения от 0 до 100</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:StringValue">
+    <value>0</value>
+  </minValue>
+  <maxValue xsi:type="core:StringValue">
+    <value>100</value>
+  </maxValue>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f3f0a48-3c9a-4060-aca9-481931f2feb6">
+  <name>РассылкаПочтовыхУведомленийОбОкончанииСрокаДействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка почтовых уведомлений об окончании срока действия</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.РаботаСПочтовымиСообщениямиРазрешения1С.ОтправитьУведомлениеОбОкончанииСрокаДействия</methodName>
+  <description>Рассылка почтовых уведомлений об окончании срока действия</description>
+  <key></key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:chm="http://v8.1c.ru/8.2/data/chart" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<filter>
+						<viewMode>Normal</viewMode>
+						<userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</userSettingID>
+					</filter>
+					<order>
+						<viewMode>Normal</viewMode>
+						<userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</userSettingID>
+					</order>
+					<conditionalAppearance>
+						<item>
+							<selection>
+								<item>
+									<field>Дата</field>
+								</item>
+								<item>
+									<field>Ambient</field>
+								</item>
+								<item>
+									<field>Chilled</field>
+								</item>
+								<item>
+									<field>Closed</field>
+								</item>
+								<item>
+									<field>ПометкаУдаления</field>
+								</item>
+								<item>
+									<field>Comments</field>
+								</item>
+								<item>
+									<field>Frozen</field>
+								</item>
+								<item>
+									<field>Issued</field>
+								</item>
+								<item>
+									<field>Issued2</field>
+								</item>
+								<item>
+									<field>Номер</field>
+								</item>
+								<item>
+									<field>ReceiverLAB</field>
+								</item>
+								<item>
+									<field>RegisatrationLetterNr</field>
+								</item>
+								<item>
+									<field>Requesters</field>
+								</item>
+								<item>
+									<field>SenderCRO</field>
+								</item>
+								<item>
+									<field>StudyNumber</field>
+								</item>
+								<item>
+									<field>TrialPermit</field>
+								</item>
+								<item>
+									<field>Valid</field>
+								</item>
+								<item>
+									<field>ClearanceДепо</field>
+								</item>
+							</selection>
+							<filter>
+								<item xsi:type="FilterItemGroup">
+									<groupType>AndGroup</groupType>
+									<item xsi:type="FilterItemComparison">
+										<left xsi:type="dcscor:Field">ТипПредупреждения</left>
+										<comparisonType>Equal</comparisonType>
+										<right xsi:type="dcscor:DesignTimeValue">Перечисление.ТипыПредупреждения.Красный</right>
+									</item>
+									<item xsi:type="FilterItemComparison">
+										<left xsi:type="dcscor:Field">Closed</left>
+										<comparisonType>Equal</comparisonType>
+										<right xsi:type="xs:boolean">false</right>
+									</item>
+								</item>
+							</filter>
+							<appearance>
+								<dcscor:item xsi:type="SettingsParameterValue">
+									<dcscor:parameter>ЦветФона</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">#EB2828</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:FieldTextColor</dcscor:value>
+								</dcscor:item>
+							</appearance>
+							<presentation xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Alert Red</v8:content>
+								</v8:item>
+							</presentation>
+							<viewMode>Inaccessible</viewMode>
+							<userSettingID>e4f6b012-abc3-43c5-8b3b-eaa67a8a9a3b</userSettingID>
+						</item>
+						<item>
+							<selection>
+								<item>
+									<field>Дата</field>
+								</item>
+								<item>
+									<field>Ambient</field>
+								</item>
+								<item>
+									<field>Chilled</field>
+								</item>
+								<item>
+									<field>Closed</field>
+								</item>
+								<item>
+									<field>ПометкаУдаления</field>
+								</item>
+								<item>
+									<field>Comments</field>
+								</item>
+								<item>
+									<field>Frozen</field>
+								</item>
+								<item>
+									<field>Issued</field>
+								</item>
+								<item>
+									<field>Issued2</field>
+								</item>
+								<item>
+									<field>Номер</field>
+								</item>
+								<item>
+									<field>ReceiverLAB</field>
+								</item>
+								<item>
+									<field>RegisatrationLetterNr</field>
+								</item>
+								<item>
+									<field>Requesters</field>
+								</item>
+								<item>
+									<field>SenderCRO</field>
+								</item>
+								<item>
+									<field>StudyNumber</field>
+								</item>
+								<item>
+									<field>TrialPermit</field>
+								</item>
+								<item>
+									<field>Valid</field>
+								</item>
+								<item>
+									<field>ClearanceДепо</field>
+								</item>
+							</selection>
+							<filter>
+								<item xsi:type="FilterItemGroup">
+									<groupType>AndGroup</groupType>
+									<item xsi:type="FilterItemComparison">
+										<left xsi:type="dcscor:Field">ТипПредупреждения</left>
+										<comparisonType>Equal</comparisonType>
+										<right xsi:type="dcscor:DesignTimeValue">Перечисление.ТипыПредупреждения.Желтый</right>
+									</item>
+									<item xsi:type="FilterItemComparison">
+										<left xsi:type="dcscor:Field">Closed</left>
+										<comparisonType>Equal</comparisonType>
+										<right xsi:type="xs:boolean">false</right>
+									</item>
+								</item>
+							</filter>
+							<appearance>
+								<dcscor:item xsi:type="SettingsParameterValue">
+									<dcscor:parameter>ЦветФона</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">#FFF000</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:FieldTextColor</dcscor:value>
+								</dcscor:item>
+							</appearance>
+							<presentation xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Alert Yellow</v8:content>
+								</v8:item>
+							</presentation>
+							<viewMode>Inaccessible</viewMode>
+							<userSettingID>395cad97-d577-4fa1-9698-cc67bf13fd34</userSettingID>
+						</item>
+						<item>
+							<selection>
+								<item>
+									<field>Дата</field>
+								</item>
+								<item>
+									<field>Ambient</field>
+								</item>
+								<item>
+									<field>Chilled</field>
+								</item>
+								<item>
+									<field>Closed</field>
+								</item>
+								<item>
+									<field>ПометкаУдаления</field>
+								</item>
+								<item>
+									<field>Comments</field>
+								</item>
+								<item>
+									<field>Frozen</field>
+								</item>
+								<item>
+									<field>Issued</field>
+								</item>
+								<item>
+									<field>Issued2</field>
+								</item>
+								<item>
+									<field>Номер</field>
+								</item>
+								<item>
+									<field>ReceiverLAB</field>
+								</item>
+								<item>
+									<field>RegisatrationLetterNr</field>
+								</item>
+								<item>
+									<field>Requesters</field>
+								</item>
+								<item>
+									<field>SenderCRO</field>
+								</item>
+								<item>
+									<field>StudyNumber</field>
+								</item>
+								<item>
+									<field>TrialPermit</field>
+								</item>
+								<item>
+									<field>Valid</field>
+								</item>
+								<item>
+									<field>ClearanceДепо</field>
+								</item>
+							</selection>
+							<filter>
+								<item xsi:type="FilterItemComparison">
+									<left xsi:type="dcscor:Field">Closed</left>
+									<comparisonType>Equal</comparisonType>
+									<right xsi:type="xs:boolean">true</right>
+								</item>
+							</filter>
+							<appearance>
+								<dcscor:item xsi:type="SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>ЦветФона</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="SettingsParameterValue">
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="SettingsParameterValue">
+									<dcscor:parameter>Шрифт</dcscor:parameter>
+									<dcscor:value bold="false" italic="false" kind="StyleItem" ref="style:NormalTextFont" strikeout="true" underline="false" xsi:type="v8ui:Font"/>
+								</dcscor:item>
+								<dcscor:item xsi:type="SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>Доступность</dcscor:parameter>
+									<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+								</dcscor:item>
+							</appearance>
+							<presentation xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Closed</v8:content>
+								</v8:item>
+							</presentation>
+							<viewMode>Inaccessible</viewMode>
+							<userSettingID>77efc8af-5b49-4d71-95f1-d79bf016d1ce</userSettingID>
+						</item>
+						<viewMode>Normal</viewMode>
+						<userSettingID>dbb2ec31-7f20-458d-b898-d14643b0287b</userSettingID>
+					</conditionalAppearance>
+					<itemsViewMode>Normal</itemsViewMode>
+					<itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</itemsUserSettingID>
+				</Settings>

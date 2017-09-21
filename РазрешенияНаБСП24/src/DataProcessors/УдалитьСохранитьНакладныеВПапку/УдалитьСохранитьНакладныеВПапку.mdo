@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ab51719-da7f-4882-be51-d11716ba70e1">
+  <producedTypes>
+    <objectType typeId="15d0b281-769e-4449-afac-a6beaec305de" valueTypeId="c9b0c9ee-8a5c-4ac6-84f3-7cc990ba2c49"/>
+    <managerType typeId="0ebef335-9612-4525-83d8-9a4a6f4b56e8" valueTypeId="74c0e59c-f965-4a31-8251-b47530ce46ae"/>
+  </producedTypes>
+  <name>УдалитьСохранитьНакладныеВПапку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить сохранить накладные в папку</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УдалитьСохранитьНакладныеВПапку.Form.Форма</defaultForm>
+  <attributes uuid="b750f858-7dc0-4526-9d3b-d42e09040962">
+    <name>ДатаВывоза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вывоза</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yy</value>
+    </editFormat>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e8246365-74c2-405a-a6b8-3997ebe3a185">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0782bf24-8208-45bb-b1b8-c5fcf84a7b3f">
+  <producedTypes>
+    <objectType typeId="19d25f8a-b30c-4d5b-8f8c-285e1839076f" valueTypeId="5b9825df-bdfd-4059-a6e3-2bdb658d252d"/>
+    <managerType typeId="90faeaad-368e-4c21-937a-06dbad5dce85" valueTypeId="79ac0135-9927-40c0-99cd-910f4e009988"/>
+  </producedTypes>
+  <name>СохранитьНакладныеВПапкуСОстатками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранить накладные в папку с остатками</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СохранитьНакладныеВПапкуСОстатками.Form.Форма</defaultForm>
+  <attributes uuid="48f95937-5b48-43c3-bfdb-b6889649297f">
+    <name>ДатаВывозаНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вывоза начало</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yy</value>
+    </editFormat>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7086e88f-f6b8-4bb6-a81a-2bf2f632b0c9">
+    <name>ДатаВывозаКонец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вывоза конец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1a1b5d23-faf6-4e16-8303-5cfcfab736c5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

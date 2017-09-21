@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24f3509e-f199-471b-8bf0-be1937dba30c">
+  <producedTypes>
+    <selectionType typeId="379ad85c-3f9f-4d16-af89-ea871781cf6a" valueTypeId="86daa816-f3eb-468d-9a9b-d1e89ea74f19"/>
+    <listType typeId="cfc5af13-5b31-471b-a407-f9ac3422c687" valueTypeId="3cc8c0b0-f4a7-4584-83d7-6206cc5e4b8d"/>
+    <managerType typeId="32abf005-2861-4200-b0f8-6fb14b72fbae" valueTypeId="cfcf2048-caff-4386-a655-01bfc5f7eea3"/>
+    <recordSetType typeId="35e9b840-6650-46ac-93a8-a92d24ecde9f" valueTypeId="a20f3e46-8ac7-4426-a3f5-3e42fe055753"/>
+    <recordKeyType typeId="2503489d-6a0e-4730-85bd-5a427435d191" valueTypeId="d055d7d4-ea71-4bd7-bc23-6c8bd7a1f346"/>
+    <recordType typeId="a2e55943-652d-488f-ac40-083eefe72574" valueTypeId="8dad08a9-029f-45c3-b89b-1528ed09eb08"/>
+    <recordManagerType typeId="a85513d3-a117-455e-a1cc-f5a7f6e82f15" valueTypeId="1d5c2a20-606c-4d3b-9491-40c73f216c64"/>
+  </producedTypes>
+  <name>УведомлениеПоОстаткамКвоты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление по остаткам квоты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.УведомлениеПоОстаткамКвоты.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9a38c562-ed8a-4f95-94fe-e4dd4e7aff76">
+    <name>МинимальныйОстаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный остаток</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="913c3f0e-9112-47e2-9b25-a9a4e2a617a1">
+    <name>НулевойОтстаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нулевой отстаток</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="95209e8e-d576-49cf-bd68-5d9aed18c4b3">
+    <name>Разрешение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Разрешения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f9425d9e-b435-4e2a-b093-8c95a756f7fe">
+    <name>Образец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Образцы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d2935295-a32a-498d-9139-c1cdf465d0a0">
+    <name>ТипОбразца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип образца</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыОбразцов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="425dbdc8-166b-4520-a0da-6aa7f7fe3290">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

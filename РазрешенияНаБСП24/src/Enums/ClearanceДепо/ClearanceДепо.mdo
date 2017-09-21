@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63b080b5-116b-4a60-8126-074680755828">
+  <producedTypes>
+    <refType typeId="9fd0fd1e-3530-4166-9b22-3d2d5e2c56a6" valueTypeId="5b649f6f-8b2f-41fc-8bb4-f0324d6d2bb3"/>
+    <listType typeId="5fc2cce8-819d-41fd-b572-5ab1614e3eb6" valueTypeId="1adc75a4-b4b7-4b6c-83a6-71ddeea7897e"/>
+    <managerType typeId="23f30e99-9d77-4298-95ea-292a74a4cac6" valueTypeId="1aa57d48-ba97-488f-832e-ac52af24b6b8"/>
+  </producedTypes>
+  <name>ClearanceДепо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Clearance депо</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5d5642b2-a9f7-4404-85f0-7da07aba2626">
+    <name>MOW</name>
+    <synonym>
+      <key>ru</key>
+      <value>MOW</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="64026b60-6d62-49f4-b57c-561a31291afa">
+    <name>SVO</name>
+    <synonym>
+      <key>ru</key>
+      <value>SVO</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

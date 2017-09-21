@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="833899c5-959d-4c19-becd-83f99e14bfca">
+  <producedTypes>
+    <objectType typeId="47d5eed6-aee6-440e-90d5-0f9f61ae878a" valueTypeId="6dc68400-2938-41eb-8176-34b1168cb13e"/>
+    <managerType typeId="80ef122b-cd67-4031-a5e9-b0530d76b2b2" valueTypeId="b91cd61c-c071-4816-b9fe-2bf74de55a75"/>
+  </producedTypes>
+  <name>ЛистСписанийПоРазрешениямВТаможне</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лист списаний по разрешениям в таможне</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЛистСписанийПоРазрешениямВТаможне.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="55449451-c054-4f73-b15b-bd7bb7552348">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

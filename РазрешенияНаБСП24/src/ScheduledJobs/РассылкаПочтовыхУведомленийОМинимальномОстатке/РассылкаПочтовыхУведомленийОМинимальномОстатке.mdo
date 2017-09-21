@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88876b23-abb1-435f-a6c2-ce00f2352a80">
+  <name>РассылкаПочтовыхУведомленийОМинимальномОстатке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка почтовых уведомлений о минимальном остатке</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.РаботаСПочтовымиСообщениямиРазрешения1С.ОтправитьУведомлениеОМинимальномОстаткеПоКвоте</methodName>
+  <description>Рассылка почтовых уведомлений о минимальном остатке</description>
+  <key></key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

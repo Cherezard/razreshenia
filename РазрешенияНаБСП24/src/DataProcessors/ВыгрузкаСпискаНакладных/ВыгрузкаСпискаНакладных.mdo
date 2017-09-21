@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="541f9720-0a8f-43ff-8bdc-2918a0d4cbda">
+  <producedTypes>
+    <objectType typeId="77c47e70-2d27-4562-b6f7-603bff825955" valueTypeId="20e41ee7-00a0-43bc-8fe2-9839aee3c59b"/>
+    <managerType typeId="428af8be-62e4-43ce-80b3-e0c4011ff1fd" valueTypeId="3687aa83-f984-4ea5-84e1-26cb486aa097"/>
+  </producedTypes>
+  <name>ВыгрузкаСпискаНакладных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка списка накладных</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаСпискаНакладных.Form.Форма</defaultForm>
+  <attributes uuid="257bafc0-5c56-4f09-82c2-f8516034051e">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="74ba8ec7-91fe-44ce-bfa9-6c632d59c199">
+    <producedTypes>
+      <objectType typeId="c5ffe498-0970-4797-8565-1f747049bf52" valueTypeId="6d201bad-95ff-4868-86b4-66fe099282b8"/>
+      <rowType typeId="09ce1012-556d-41dd-9f18-dfe88e8a80ca" valueTypeId="819b4432-03bf-4273-ba4c-53ff30799def"/>
+    </producedTypes>
+    <name>Лаборатории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатории</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="52ff2d3f-8d54-4505-a966-93b8ab26cfbc">
+      <name>ReceiverLAB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Receiver (LAB)</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ПринимающаяЛаборатория</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="bc9eefc1-7d87-40db-91e6-ef9cd9258f60">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="22f3980f-6174-40f5-8d0d-00532f897d91">
+    <name>ПФ_MXL_Example</name>
+    <synonym>
+      <key>ru</key>
+      <value>Example</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

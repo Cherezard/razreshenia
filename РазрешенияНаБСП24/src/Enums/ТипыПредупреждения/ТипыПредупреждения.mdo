@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70c41f94-5794-49f9-9ada-f0adac520a9c">
+  <producedTypes>
+    <refType typeId="59a9f811-a1f9-4dab-a58a-a0b1725c18e4" valueTypeId="f58659ca-8a24-4c74-a173-0c58b205946f"/>
+    <listType typeId="1e5e84ba-e81f-4f03-bda9-de20e6a455f7" valueTypeId="6c73832d-9aaf-4cd6-a6b8-cce829ac74ab"/>
+    <managerType typeId="13caec0c-daf1-4cbf-b55f-57730189834c" valueTypeId="d3ffe696-b1af-496b-965b-7bd35e91c232"/>
+  </producedTypes>
+  <name>ТипыПредупреждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы предупреждения</value>
+  </synonym>
+  <comment>Alert</comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3374bae0-fd52-4edb-8006-9c3cad14ab85">
+    <name>Желтый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Yellow</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3e324774-9374-4392-93a2-5f0e4c1333a3">
+    <name>Красный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Red</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

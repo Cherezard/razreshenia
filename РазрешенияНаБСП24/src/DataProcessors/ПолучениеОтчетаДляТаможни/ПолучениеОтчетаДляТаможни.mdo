@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72a69cb5-1a73-419a-86e8-ae696ca957e5">
+  <producedTypes>
+    <objectType typeId="7fb46ec3-51fa-41e2-be2e-c199eb237389" valueTypeId="85362f37-a4e2-4c4b-98f7-7de8e41624df"/>
+    <managerType typeId="6a32c4ab-9820-42e7-b74b-c4920fbb26b4" valueTypeId="e790fef9-4c86-4435-8740-245ebee3eff8"/>
+  </producedTypes>
+  <name>ПолучениеОтчетаДляТаможни</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение отчета для таможни</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучениеОтчетаДляТаможни.Form.Форма</defaultForm>
+  <attributes uuid="7c1e25cf-43c6-44c5-a11f-bdf1d2e03919">
+    <name>ДатаВывоза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вывоза</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fc6f191d-8a78-4df1-8fd5-8e3274c6e395">
+    <name>Разрешение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Разрешения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="cb713394-a4b4-4c7a-8333-cab7611c73a6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

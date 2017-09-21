@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0656a683-fc4a-4515-9f43-581bddc25fb8">
+  <producedTypes>
+    <objectType typeId="82038883-e2f9-41a9-9473-cb19f9570475" valueTypeId="e084dcc8-864e-45dc-be98-3144e0cc8b11"/>
+    <managerType typeId="ddd61665-d3b4-4b77-868c-c21f9af75c23" valueTypeId="8393a16f-5496-46ff-a8d9-67b8b9276eb5"/>
+  </producedTypes>
+  <name>ПечатьРеестрЭкспрессГрузов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать реестр экспресс грузов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="3b654a31-0a00-4eb3-b4c2-3dd3289903a3">
+    <name>ПФ_MXL_РеестрЭкспрессГрузов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр экспресс грузов</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:DataProcessor>

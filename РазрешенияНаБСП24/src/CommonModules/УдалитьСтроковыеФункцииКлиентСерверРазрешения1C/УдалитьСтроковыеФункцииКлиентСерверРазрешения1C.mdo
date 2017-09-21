@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b1e8c22-2ca9-43f4-be2d-0035e1831536">
+  <name>УдалитьСтроковыеФункцииКлиентСерверРазрешения1C</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Строковые функции клиент сервер Разрешения 1C</value>
+  </synonym>
+  <comment></comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

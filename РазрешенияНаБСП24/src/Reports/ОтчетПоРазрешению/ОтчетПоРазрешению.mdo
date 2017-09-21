@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e64a52c5-bcf0-4a5d-8815-99f468f50d17">
+  <producedTypes>
+    <objectType typeId="38423a62-6317-4928-89e8-e2a8655b19c7" valueTypeId="ac36e3f0-68ec-4a32-b7e0-bac67b7d5e89"/>
+    <managerType typeId="766fb922-5c4e-4854-9d60-667a442e5eb4" valueTypeId="3572d9e1-c6bd-4972-97a4-01d8075d01e5"/>
+  </producedTypes>
+  <name>ОтчетПоРазрешению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по разрешению</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоРазрешению.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="164717ea-ca40-42c1-87d3-174fb9bb2f48">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

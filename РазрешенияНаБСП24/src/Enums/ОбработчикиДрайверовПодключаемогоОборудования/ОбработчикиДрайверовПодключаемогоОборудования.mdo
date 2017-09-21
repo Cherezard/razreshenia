@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a332ead0-386e-4cfa-ba70-a56a66e9d098">
+  <producedTypes>
+    <refType typeId="13ca54dc-661e-4d33-87e6-379ab1bb2795" valueTypeId="22deeab2-3e23-4216-9c60-9a6c494c48a0"/>
+    <listType typeId="9fa4c828-ad08-4797-af64-850d29346285" valueTypeId="9a74034a-2fca-45e2-8c75-114e6f9728a9"/>
+    <managerType typeId="7242cda7-90ea-4bbb-9ac4-6ec71e0db66b" valueTypeId="ee48b23b-8e4a-483d-a67e-ba7a948b30da"/>
+  </producedTypes>
+  <name>ОбработчикиДрайверовПодключаемогоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики драйверов подключаемого оборудования</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d706ac34-3097-4e1a-a090-d0ed690a910b">
+    <name>Обработчик1ССканерыШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Сканеры штрихкода (COM)</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="6091611a-965a-4403-a6ac-4786a63930a5">
+    <name>Обработчик1ССканерыШтрихкодаNative</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Сканеры штрихкода (NativeApi)</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="d5af826b-3a92-4681-bb5e-dae5e1516375">
+    <name>ОбработчикАтолСканерыШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Сканеры штрихкода</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="26b43144-e17e-4556-8eb7-e0eb25249b21">
+    <name>ОбработчикАтолСканерыШтрихкода8X</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Сканеры штрихкода 8.Х</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="3fb0f944-27d7-496e-b454-9d3b880f912d">
+    <name>ОбработчикГексагонСканерыШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гексагон:Сканеры штрихкода Proton</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="b9fcc8eb-fd2f-4780-b6a5-70bb6d30fac7">
+    <name>ОбработчикСканкодСканерыШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканкод:Сканеры штрихкода</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+</mdclass:Enum>

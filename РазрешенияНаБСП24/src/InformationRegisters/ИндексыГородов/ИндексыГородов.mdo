@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9cf75a0-7556-4d41-a311-e3ed3cbe2531">
+  <producedTypes>
+    <selectionType typeId="25b89878-a343-424e-bc34-a209748d1206" valueTypeId="23579abc-76c0-4ce8-9da7-f22e27556b2b"/>
+    <listType typeId="2999a196-7273-4feb-b46d-879f4b973fbf" valueTypeId="206d90bf-6df4-40ac-abad-76f07f4c9b99"/>
+    <managerType typeId="eba875ee-7c62-4550-b87c-19afba3bed25" valueTypeId="33675c64-9631-40c1-b44c-d15137959044"/>
+    <recordSetType typeId="e0716639-23d1-438f-b0f0-c8f293fe20fa" valueTypeId="db1a3ac1-1ac7-4ea3-aea9-fbf84926e87a"/>
+    <recordKeyType typeId="67570e59-7a7c-4349-b693-8a6ead3c2a77" valueTypeId="5579c645-ad83-4b5c-9bee-6782985fdcce"/>
+    <recordType typeId="4717e11a-fa03-41ec-b97f-1eaed4807e1f" valueTypeId="4378e472-2091-4165-9738-d5a76f915889"/>
+    <recordManagerType typeId="2772cac8-b1aa-4557-9418-bf995e665be4" valueTypeId="3bb8bb3f-1bcf-45ad-a654-f4f3f07c3860"/>
+  </producedTypes>
+  <name>ИндексыГородов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Индексы городов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ИндексыГородов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d6a9435e-2ceb-4ba4-92ca-b7f06a1edc0d">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e6e10336-f0ab-42df-854c-a9c260a6abef">
+    <name>Индекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="aa486293-15a7-44ba-a1b2-a3d1f5385383">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

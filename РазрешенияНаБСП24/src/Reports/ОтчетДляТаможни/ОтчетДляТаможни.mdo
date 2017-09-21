@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bb60934-de1c-4e85-80cf-5ab42b124da1">
+  <producedTypes>
+    <objectType typeId="465d3fce-40e5-401a-84d5-22c9eb8e2fb3" valueTypeId="03ce74ca-9de2-4cda-ad42-51aae1e27164"/>
+    <managerType typeId="af8d4508-dbb9-41cc-9861-b29935aecc48" valueTypeId="3c7d1c4a-2fd8-4b44-9cb5-7071390aa56a"/>
+  </producedTypes>
+  <name>ОтчетДляТаможни</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет для таможни</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетДляТаможни.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="2fff2b11-0daa-44df-b3e0-8805a3745126">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

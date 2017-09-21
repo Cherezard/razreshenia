@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="faa0134a-ee60-4e30-a77b-de8bbb9568d2">
+  <producedTypes>
+    <objectType typeId="d0083191-3bbf-425c-984e-aa98177b9ed6" valueTypeId="d4818d1b-132b-4366-8bf1-938fa9c3b099"/>
+    <managerType typeId="ca1181f2-98fa-4217-a8bb-cdbcb830995a" valueTypeId="9303e892-5df6-4f2f-8a5a-70e17d6201c4"/>
+  </producedTypes>
+  <name>ЗагрузкаРазрешенийИзЛистаИзExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка разрешений из листа из excel</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаРазрешенийИзЛистаИзExcel.Form.Форма</defaultForm>
+  <attributes uuid="537d01d0-c424-454a-b04d-7ca2379dedfb">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="2d7cfcee-a216-4bd6-9bc8-9ed9af3da2e1">
+    <name>НомерЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер листа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Минимальное значение 1</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="615a5ace-2282-48ab-b5b7-9e7212074f09">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

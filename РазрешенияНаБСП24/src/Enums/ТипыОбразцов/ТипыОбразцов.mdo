@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2248bd2-a184-4f2b-bb69-dae21792d108">
+  <producedTypes>
+    <refType typeId="b1fc7c30-e1e2-4438-86f1-b8089081d5e6" valueTypeId="cc2adb30-36ab-4fd3-a5d9-b3ae6413c829"/>
+    <listType typeId="1c00e098-2291-456b-94fb-550f0d141d44" valueTypeId="2e5b359c-2893-4261-a1a7-7fb3ca211275"/>
+    <managerType typeId="74c6d2cd-b5f6-475b-b23c-2eee8255b785" valueTypeId="12fe40eb-682d-44d4-b4b8-e70ad1e57932"/>
+  </producedTypes>
+  <name>ТипыОбразцов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы образцов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a0fdc0e9-a73b-46da-bac8-51055ccd91f6">
+    <name>Ambient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ambient</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b60980a4-0912-4713-a3b2-4a47303e1da7">
+    <name>Chilled</name>
+    <synonym>
+      <key>ru</key>
+      <value>Chilled</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d701e231-05d2-4fd6-9dd8-f0dad6a80e41">
+    <name>Frozen</name>
+    <synonym>
+      <key>ru</key>
+      <value>Frozen</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea01247f-95d3-4be5-ba6a-fe7403c23ae2">
+  <name>РаботаСРазрешениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с разрешениями</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделОрганайзер48</picture>
+  </picture>
+  <content>Document.Разрешения</content>
+  <content>Document.Накладные</content>
+  <content>DataProcessor.ЗагрузкаРазрешенийИзЛистаИзExcel</content>
+  <content>Report.ОтчетПоРазрешению</content>
+  <content>Report.ОтчетПоНакладным</content>
+  <content>Report.ОтчетПоОстаткам</content>
+  <content>Report.ОтчетПоСписанию</content>
+  <content>Report.ОтчетДляТаможни</content>
+  <content>Report.ОтчетДляТаможниНаДату</content>
+  <content>Report.ОтчетДляТаможни1</content>
+  <content>Report.ОтчетДляТаможниПоНакладной</content>
+  <content>Report.ОтчетДляТаможниНаДату1</content>
+  <content>Document.Манифест</content>
+  <content>DataProcessor.НакладныеСОписаниемОбразцов</content>
+  <content>DataProcessor.СохранитьНакладныеВПапку</content>
+  <content>DataProcessor.СохранитьНакладныеВПапкуСОстатками</content>
+  <content>CommonPicture.ЛоготипTNT</content>
+  <content>ScheduledJob.РассылкаПочтовыхУведомленийОМинимальномОстатке</content>
+  <content>ScheduledJob.РассылкаПочтовыхУведомленийОбОкончанииСрокаДействия</content>
+  <content>DataProcessor.ВыгрузкаСпискаНакладных</content>
+</mdclass:Subsystem>

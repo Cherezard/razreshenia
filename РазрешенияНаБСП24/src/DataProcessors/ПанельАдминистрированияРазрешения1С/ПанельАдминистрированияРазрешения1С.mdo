@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="410a1a6f-71af-4f31-a066-018642d204c0">
+  <producedTypes>
+    <objectType typeId="f53f9ddc-8552-475e-b51f-ea0804250e08" valueTypeId="2d6c951b-80c4-465a-908e-6f3426a0547a"/>
+    <managerType typeId="6d62e170-6dbf-4167-bf87-0c5741e46f97" valueTypeId="f3ccd1dd-b8a6-487e-bd97-785c6926f37b"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияРазрешения1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования Разрешения1С</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПанельАдминистрированияРазрешения1С.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="01bc1a67-126d-46a5-9d51-b738f6702419">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b2a7b601-96f1-408f-ba56-57d67f6b5a5a">
+    <name>Классификаторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификаторы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2c2c95e8-7618-4f81-bcce-7b0782cf1287">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c17cb45-35ea-4703-b82e-7b2d8c307005">
+    <name>НастройкиОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c61881db-2ff5-448a-b170-17c854bdfd23">
+    <name>АдресныеКлассификаторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресные классификаторы</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="d11c135f-586b-4747-95d3-7024f9df521f">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Управление параметрами организаций</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="6c91fbb2-fa3d-437a-be32-8bbd94dfecbe">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acd7df14-2a18-413b-aa74-ccce35c463f2">
+  <name>РаботаСОборудованием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с оборудованием</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Подключение, настройка и использование оборудования
+.</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодключаемоеОборудованиеСканерШтрихкода32</picture>
+  </picture>
+  <content>Constant.ИспользоватьПодключаемоеОборудование</content>
+  <content>FunctionalOption.ИспользованиеПодключаемогоОборудования</content>
+  <content>CommonPicture.НовыйПоШтрихкоду</content>
+  <content>CommonPicture.ТоварыВыгрузить</content>
+  <content>CommonPicture.ТоварыОчистить</content>
+  <content>CommonPicture.ТоварыЗагрузить</content>
+  <content>ChartOfCharacteristicTypes.ТипыШтрихкодов</content>
+  <content>Catalog.РабочиеМеста</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

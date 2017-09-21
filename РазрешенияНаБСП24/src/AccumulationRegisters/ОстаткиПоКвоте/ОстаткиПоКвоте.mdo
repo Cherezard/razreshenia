@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76648f1e-ab1e-4700-a05e-7c3bfa533eca">
+  <producedTypes>
+    <selectionType typeId="d5fcee50-4798-4d65-ab58-59694b2e5e8c" valueTypeId="b9d0a557-6d42-4f1e-bec8-0fa37cb2b2a4"/>
+    <listType typeId="533bf207-4478-4b8d-8a69-7f5b1d7b746c" valueTypeId="caf2e24f-030f-4ec0-9fe6-72f1be90e940"/>
+    <managerType typeId="6de55b61-aa5a-497c-aaf4-82a4322dbb03" valueTypeId="fdbcff33-40d3-48fa-ad1e-97b1d9be2766"/>
+    <recordSetType typeId="a5aa5577-91e7-4d87-aebb-5fcdd6f6def3" valueTypeId="04b23494-f82d-436b-9e78-48af3df3ae44"/>
+    <recordKeyType typeId="28dd87b1-421d-40ce-9765-393eb6c2235d" valueTypeId="97c94ab5-555d-4922-90fa-3f5797ca08d2"/>
+    <recordType typeId="d41e059c-c592-49dc-8b3d-f317eaadb353" valueTypeId="5d86762e-431b-40ce-a3f4-7b8c0382f6ad"/>
+  </producedTypes>
+  <name>ОстаткиПоКвоте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки по квоте</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="42f52304-148a-40d1-b42c-e5de2bb26ef7">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <markNegatives>true</markNegatives>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e96bd528-25b4-4536-bff0-899a0d5f8643">
+    <name>Образец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Образцы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6d0c71cd-fbd4-424b-93fa-711fd47aadba">
+    <name>ТипОбразца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип образца</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ТипыОбразцов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="64ebdfda-2efe-4df7-b066-df6b8894b882">
+    <name>Разрешение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Разрешения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

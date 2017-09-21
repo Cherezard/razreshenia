@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c00aeda-056d-47d4-9713-23fcf75200a2">
+  <name>НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Нормативно-справочная информация и классификаторы</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделНормативноСправочнаяИнформация48</picture>
+  </picture>
+  <content>Catalog.КонтактныеЛица</content>
+  <content>Catalog.Образцы</content>
+  <content>Catalog.КлиническиеИсследования</content>
+  <content>Catalog.Протоколы</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.Доверенности</content>
+  <content>Catalog.ТаможенныеПосты</content>
+  <content>Catalog.Города</content>
+  <content>Catalog.Клиники</content>
+  <content>Catalog.ПринимающаяЛаборатория</content>
+</mdclass:Subsystem>

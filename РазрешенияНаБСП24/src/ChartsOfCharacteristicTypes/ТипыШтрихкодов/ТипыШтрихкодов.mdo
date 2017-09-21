@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebf5743a-dc78-4d13-bbf2-c7988682b570">
+  <producedTypes>
+    <objectType typeId="be9bc761-46b7-47ed-8a82-805d07d3af45" valueTypeId="4b5a01fc-2287-49e9-8b2c-be9ee5327909"/>
+    <refType typeId="cb15da5f-71bf-499e-9776-164914041cab" valueTypeId="f576d64f-2bfc-4497-99e5-83d30f4317d6"/>
+    <selectionType typeId="3ba7bd09-d7a9-4f19-8144-4cfd9b902b31" valueTypeId="53e9e77c-b679-4aa2-8db6-2e754175feef"/>
+    <listType typeId="ba033576-a2a0-4dbb-aef3-f3843f639811" valueTypeId="822d74d4-b79c-4da4-893e-b05cb7121931"/>
+    <managerType typeId="33f84d67-99a5-4c4c-aa0c-7941f3dde02c" valueTypeId="05281bce-4ef5-4e49-bf16-e0ed4c46a590"/>
+    <containerType typeId="2abe1222-9096-4cc8-b4e5-4e78519f8e39" valueTypeId="6ae258c0-6574-46ac-b7dd-f509b2e41517"/>
+  </producedTypes>
+  <name>ТипыШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы штрихкодов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ТипыШтрихкодов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>ValueType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3be7a71a-68f5-4218-b88a-c441cb388edb">
+      <name>CODE128</name>
+      <description>CODE128</description>
+      <code></code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>128</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="99c05e73-cd17-4dbd-b9cd-b3a20f324f5d">
+      <name>CODE39</name>
+      <description>CODE39</description>
+      <code></code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>39</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="8421caf4-3f96-4ec6-954d-6f827454650b">
+      <name>EAN128</name>
+      <description>EAN128</description>
+      <code></code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>128</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="a39fb8d3-e027-4405-a639-6360f95389f3">
+      <name>EAN13</name>
+      <description>EAN13</description>
+      <code></code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>13</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="1b80f700-f9ef-4c18-89dc-72c00f70cb50">
+      <name>EAN8</name>
+      <description>EAN8</description>
+      <code></code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>8</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="8b08864d-6dc1-4928-b30f-b6ffd4455d6e">
+      <name>QR</name>
+      <description>QR</description>
+      <code></code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

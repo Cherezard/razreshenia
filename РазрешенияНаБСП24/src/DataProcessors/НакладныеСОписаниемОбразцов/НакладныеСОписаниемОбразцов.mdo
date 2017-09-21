@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29003a92-6aef-4a68-a7d6-de56e2e5ebaa">
+  <producedTypes>
+    <objectType typeId="12a0daa7-b84a-4fa0-bae0-783ee2f6d58d" valueTypeId="fb961a0c-0336-47bf-a04c-1648ce16b9e3"/>
+    <managerType typeId="f144b293-d952-440e-9d92-143fa79e72f6" valueTypeId="55ab6a60-ee61-40cf-84fa-5cbbff94a301"/>
+  </producedTypes>
+  <name>НакладныеСОписаниемОбразцов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Накладные с описанием образцов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НакладныеСОписаниемОбразцов.Form.Форма</defaultForm>
+  <attributes uuid="6bc89ac1-83ae-4183-813c-5dcbed9d0bad">
+    <name>ДатаВывозаНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вывоза начало</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=dd.MM.yy</value>
+    </editFormat>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="69fd2cab-4d43-45d3-b78c-a0b03756278c">
+    <name>ДатаВывозаКонец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата вывоза конец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="76b6fc7e-e0e0-440d-b330-7ac4b52261d2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

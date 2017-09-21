@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9700d8ae-00e4-4eab-867b-802525413dae">
+  <producedTypes>
+    <objectType typeId="f38f2142-1575-47c7-a098-4551bf7163e5" valueTypeId="690aecde-aeed-4c7b-95d3-af55c39ec4a1"/>
+    <refType typeId="f74c1b3a-ccf9-4a44-a4df-910d014816ac" valueTypeId="f5bdcbc9-8eb0-4fa3-8942-1ce554ea56a2"/>
+    <selectionType typeId="84ac3e77-4265-4ba7-90ec-cbe0bebb3c42" valueTypeId="654962e9-d77e-4c13-afca-634ecdd644d9"/>
+    <listType typeId="47e13d76-8f58-4435-a467-3a6b965e56c9" valueTypeId="4694b2ce-5233-4446-99f6-5e867600a157"/>
+    <managerType typeId="3537a96a-1b4f-4731-b33a-cf5b35707f21" valueTypeId="4a25f0f6-f226-4579-887a-6a9636128b0e"/>
+  </producedTypes>
+  <name>ПринимающаяЛаборатория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Receiver (LAB)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПринимающаяЛаборатория.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПринимающаяЛаборатория.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПринимающаяЛаборатория.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="30b6acf7-8402-49ff-aa2f-70bf957fafa1">
+    <producedTypes>
+      <objectType typeId="2d9be415-6f06-4702-9dac-7feeb8187211" valueTypeId="22bd99e7-dc69-4a81-b1c7-b4696e5f79e4"/>
+      <rowType typeId="89d2123d-e35e-4d63-a526-d76a50d4741f" valueTypeId="6e2e8ce5-b1d6-4853-931a-d4f634bba3af"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительные реквизиты объекта</value>
+    </toolTip>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bd8f8421-4607-43c3-985b-be9e000dde72">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительный реквизит</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0848f8d9-891a-4d64-a2c7-78c42c2d8ec3">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение дополнительного реквизита</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ПринимающаяЛаборатория.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7166f396-e004-4c05-9ade-47ca3bf381da">
+      <name>ТекстоваяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовая строка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный текст строкового дополнительного реквизита</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1dbc6dd9-5c84-483a-8530-cb46659f67fb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

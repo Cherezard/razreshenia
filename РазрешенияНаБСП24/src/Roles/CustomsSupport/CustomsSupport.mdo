@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f72949e-c20c-4505-9b3c-4780ec13b3fc">
+  <name>CustomsSupport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Customs support</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>
